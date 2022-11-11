@@ -1,0 +1,27 @@
+.circular_profile{
+    position: relative;
+    width: 80px;
+}
+.progress_profile{
+    display: flex;
+}
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--heading-color);
+    opacity: .9;
+}
+.action_button{display: flex;}
+.action_button button {
+    padding: 5px !important;
+    background: #fff3f3;
+    border: 1px solid red;
+    margin-right: 5px;
+    min-width: 32px;
+    width: 32px;
+}
+.action_button button svg {
+    width: .7em;
+    height: .7em;
+    fill: var(--theme-color);
+}

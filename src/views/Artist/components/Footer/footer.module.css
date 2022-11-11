@@ -1,0 +1,123 @@
+.bottom_footer {
+  border-top: 2px solid #f9a630;
+  padding: 15px 0;
+  text-align: center;
+  background: rgb(0 0 0 / 20%);
+  margin-top: 15px;
+}
+.footerContainer {
+  margin-top: 60px;
+  position: relative;
+  background-size: 100%;
+}
+.bottom_footer p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+.bottom_footer p a {
+  color: #000;
+  font-weight: 600;
+}
+
+.footerInnerContainer {
+  justify-content: space-around;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+@media screen and (max-width: 600px) {
+  .fotter_menu_item > ul {
+    margin: 0px 0 10px 0 !important;
+  }
+}
+@media screen and (max-width: 959px) {
+  .fotter_menu_item > ul > li > p {
+    display: none;
+  }
+  .fotter_menu_item > ul {
+    margin: 0 0 0 0px !important;
+  }
+}
+.company_details {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.company_info p img {
+  width: 120px;
+}
+
+.company_info > p {
+  color: var(--sub-heading-color);
+  display: block;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin-top: 0px !important;
+  margin-bottom: 10px;
+}
+
+.company_details {
+  position: relative;
+}
+
+.company_add {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.company_add > p > svg {
+  width: 0.8em !important;
+  height: 0.8em !important;
+  fill: var(--theme-color);
+  margin-right: 10px;
+}
+.company_add > p a,
+.company_add > p {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  color: var(--sub-heading-color);
+  cursor: pointer;
+}
+.accordion_main {
+  position: relative;
+  border: var(--border);
+  box-shadow: none !important;
+  padding: 2px;
+  background: #ffffff82 !important;
+  width: 97%;
+}
+.accordion_main > div > div > p {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  margin-top: 0px !important;
+  opacity: 0.8;
+}
+.footer_list {
+  position: relative;
+}
+.footer_list ul {
+  display: flex;
+  list-style: none;
+}
+.footer_list ul li {
+      padding: 20px 40px;
+}
+.footer_list ul li p {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 30px;
+}
+.brand_logo {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin: 25px 0;
+    margin-top: 55px;
+    
+}

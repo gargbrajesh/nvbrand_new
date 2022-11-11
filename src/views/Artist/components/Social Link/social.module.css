@@ -1,0 +1,174 @@
+.span_design {
+    width: 235px;
+    height: 44px;
+    left: 95px;
+    top: 143px;
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #FAA61A;
+}
+
+.btn1 {
+    border: none;
+    width: 141px;
+    height: 40px;
+    left: 990px;
+    top: 142px;
+    background: #FAA61A;
+    border-radius: 20px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.btn2 {
+    border: none;
+    width: 206px;
+    height: 40px;
+    left: 1144px;
+    top: 142px;
+    background: #FAA61A;
+    border-radius: 20px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.wrap {
+    width: 95%;
+	margin: auto;
+	height: 95vh;
+    margin-top: 80px;
+}
+
+
+
+.form_control_lg {
+    min-height: calc(1em + 0.5rem + 2px);
+    padding: 0.3rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+
+    background-clip: padding-box;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    border-width: 0 0 2px;
+}
+
+.sign__in {
+    margin-top: 20px;
+
+}
+
+.sign__in p {
+    color: #7a797f;
+    margin-bottom: 0;
+    display: flex;
+
+}
+
+.sign__in p>p {
+    color: #f8a01c;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signup_btn {
+    font-size: 16px !important;
+    color: #ffffff !important;
+    background: #FAA61A !important;
+    height: 40px !important;
+    line-height: 40px !important;
+
+    text-align: center !important;
+    padding: 0 10px !important;
+    display: inline-block !important;
+
+    border-radius: 35px !important;
+    text-transform: capitalize !important;
+    position: relative !important;
+    z-index: 1 !important;
+    overflow: hidden !important;
+    width: 35% !important;
+}
+
+
+
+
+
+
+
+
+.form_control_lg {
+    min-height: calc(1em + 0.5rem + 2px);
+    padding: 0.3rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+   
+    background-clip: padding-box;
+   
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    border-width: 0 0 2px solid black !important;
+}
+
+
