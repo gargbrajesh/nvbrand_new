@@ -1,0 +1,38 @@
+{
+  "name": "absolutepitch",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start -p ${PORT:=3000}",
+    "build": "next build && next export",
+    "prettier": "prettier --write '**/*.{js,css,html}'",
+    "clear-all": "rimraf ./.cache ./.next ./node_modules"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui/icons-material": "^5.10.2",
+    "@mui/material": "^5.10.1",
+    "@mui/styles": "^5.10.2",
+    "clsx": "^1.2.1",
+    "encoder": "^0.2.4",
+    "encoding": "^0.1.13",
+    "formik": "^2.2.9",
+    "js-cookie": "^3.0.1",
+    "mui-react-alert": "^1.0.7",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-player": "^2.11.0",
+    "react-video-js-player": "^1.1.1",
+    "reactjs-media": "^2.2.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
